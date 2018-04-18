@@ -1,7 +1,7 @@
 <ion-header>
     <ion-navbar>
         <ion-title>
-            Ionic Blank
+            Leer SMS - Ionic 3
         </ion-title>
     </ion-navbar>
 </ion-header>
@@ -10,7 +10,7 @@
     <ion-list>
         <ion-item *ngFor="let x of messages">
             <ion-avatar item-start>
-                <button ion-button color="danger" round>{{x.address|firstCaps}}</button>
+                <button class="btn" ion-button color="primary" round>{{x.address|firstCaps}}</button>
             </ion-avatar>
             <h2>{{x.address}}</h2>
             <p>{{x.body}}</p>

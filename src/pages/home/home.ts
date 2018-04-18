@@ -11,8 +11,7 @@ export class HomePage {
    
   messages: any = [];
   constructor(public navCtrl: NavController, public platform: Platform, public androidPermissions: AndroidPermissions) {
-    //this.checkPermission();
-     
+    this.checkPermission();
   }
   checkPermission() {
     this.androidPermissions.checkPermission
